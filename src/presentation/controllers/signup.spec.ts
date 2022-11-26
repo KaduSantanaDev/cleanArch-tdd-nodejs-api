@@ -11,7 +11,6 @@ const makeEmailValidator = (): EmailValidator => {
   class EmailValidatorStub implements EmailValidator {
     isValid (email: string): boolean {
       return true
-      // MARCELO É LEGAL
     }
   }
   return new EmailValidatorStub()
